@@ -1,6 +1,6 @@
 const int RELAY_PIN = 8;
 //const unsigned long TIME_TO_OFF = 60000;
-const unsigned long TIME_TO_OFF = 90000;
+const unsigned long TIME_TO_OFF = 240000; //4 минуты
 
 void setup() {
   pinMode(RELAY_PIN, OUTPUT);
